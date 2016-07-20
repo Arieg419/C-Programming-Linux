@@ -15,7 +15,7 @@ int main(int argc, char const *argv[]) {
     exit(1);
   }
 
-  pid = fork();
+  pid = fork(); // create two processes
 
   if (pid == 0) {
     // Child process
